@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/patrickjane/fixmouse?color=blue) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/patrickjane/fixmouse)
+
 # FixMouse
 
 A mouse acceleration killer for macOS (compatible with **macOS catalina**)
@@ -8,7 +10,7 @@ A tiny console program which disables mouse acceleration on macOS. It also **kee
 
 ## Installation
 
-You can either use the provided installer, or manually run the program whenever you need it. 
+You can either use the provided installer, or manually run the program whenever you need it. Download the installer from the [list of releases](https://github.com/patrickjane/fixmouse/releases/latest).
 
 Using the installer will copy the binary to `/Applications/FixMouse/fixmouse`. Also, autostart will be enabled by copying the file `de.s710.fixmouse.plist` to `/Library/LaunchAgents/`. This will assure that fixmouse runs upon startup.
 
