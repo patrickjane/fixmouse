@@ -14,6 +14,19 @@ You can either use the provided installer, or manually run the program whenever 
 
 Using the installer will copy the binary to `/Applications/FixMouse/fixmouse`. Also, autostart will be enabled by copying the file `de.s710.fixmouse.plist` to `/Library/LaunchAgents/`. This will assure that fixmouse runs upon startup.
 
+### Building from source
+
+If you would like to build from source, first ensure that you have
+the Xcode command line tools installed, and then compile the executable with clang:
+
+```sh
+$ clang -fmodules main.m -o fixmouse
+```
+
+To run the compiled executable at startup, you can manually copy it to
+`/Applications/FixMouse`, and then move the plist to the directory mentioned
+above.
+
 ### Manual usage
 
 The program has 3 modes of operation:
