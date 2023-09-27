@@ -1,3 +1,9 @@
+macOS Sonoma now has an option to disable Pointer Acceleration built in to the System Settings:
+
+https://apple.stackexchange.com/a/461057/36202
+
+---
+
 ![GitHub](https://img.shields.io/github/license/patrickjane/fixmouse?color=blue) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/patrickjane/fixmouse)
 
 # FixMouse
